@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+/* ===== Offer Section ===== */
+.offer {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.offer h1 {
+    font-size: 60px;
+    color: red;
+}
+
+.offer p {
+    color: red;
+    margin: 10px 0;
+}
+
+.offer h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.offer img {
+    width: 300px;
+}
+
+/* ===== Party Section ===== */
+.party {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("/images/Vectorrr.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    border-radius: 20px;
+    margin: 40px;
+    color: #fff;
+}
+
+.party-content {
+    max-width: 500px;
+}
+
+.party-content h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.party-content p {
+    margin-bottom: 20px;
+}
+
+.party-content button {
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===== Event Info ===== */
+.event-info {
+    background: #ffecec;
+    margin: 60px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.event-info span {
+    color: red;
+    font-weight: bold;
+}
+
+.event-info p {
+    margin: 10px 0;
+}
+
+.event-info button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===== Coming Soon ===== */
+.coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 40px;
+}
+
+.left h4 {
+    color: red;
+}
+
+.left h2 {
+    margin: 10px 0;
+}
+
+.center img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 8px solid red;
+}
+
+.right h2 {
+    color: red;
+    font-size: 32px;
+}
+
+.right img {
+    margin-top: 15px;
+    width: 80px;
+}
